@@ -1,0 +1,63 @@
+body{
+    background: rgb(3, 291, 251);
+}
+h1{
+    font-size: 2rem;
+    color: seashell;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    font-weight: normal;
+}
+#message{
+    display: inline-block;
+    width: 20%;
+}
+.reset:hover{
+    background-color: ;
+}
+button{
+    border: none;
+    background: none;
+    height: 100%;
+    letter-spacing: 1px;
+    transition: all .5s;
+    outline: none;
+}
+button:focus{
+    outline: none;
+}
+#rgb{
+    font-size: 200%;
+}
+.stripe{
+    background-color: whitesmoke;
+    height: 30px;
+    margin: 0 auto;
+    text-align: center;
+}
+.success{
+    color: green;
+    font-weight: 900;
+}
+.selected{
+    background-color: steelblue;
+}
+
+.fail{
+    color: red;
+    font-weight: 900;
+}
+.square{
+    width: 30%;
+    background: pink;
+    transition: background .5s;
+    padding-bottom: 30%;
+    border-radius: 50%;
+    float: left;
+    margin: 1.66%;
+}
+#container{
+    margin: 20px auto;
+    max-width: 600px;
+}
